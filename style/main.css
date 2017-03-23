@@ -1,0 +1,115 @@
+body, html{
+    height: 100%;
+    background: #222222;
+    font-family: 'Lato', sans-serif;
+}
+
+.container {
+    width:90% !important;
+}
+.form-group {
+    margin-top:3% !important;
+}
+/*for input-group*/
+.error-field {
+    box-shadow: 0 0 10px red !important;
+}
+
+
+
+.input-group input  {
+    width:100% !important;
+}
+
+
+
+
+.input-group-addon {
+    width:40% !important;
+    box-sizing: border-box;
+}
+
+/***/
+.error-container {
+    margin-left:10%;
+    width:80%;
+    height:30px;
+    /*background-color: red;*/
+}
+
+.error-text {
+    margin-left: 13%;
+    background-color: #fff;
+    color:red;
+}
+
+.no-error {
+    display:none;
+}
+
+
+input {
+    width:30% !important;
+}
+
+
+.radioContainer {
+    margin-top:3%;
+}
+
+#submitButton {
+    margin-top:5%;
+    width:100% !important;
+}
+
+
+.tableContainer {
+    margin-left:10%;
+    margin-top:3%;
+    float:left;
+    width:60%;
+
+}
+
+.addForm {
+    margin-top:3%;
+    float:left;
+}
+
+.clearfix {
+    clear:both;
+}
+
+
+table th {
+    position:relative ;
+    text-align:center;
+}
+
+thead {
+    background-color: lightgray;
+}
+
+
+
+table th:after {
+    position:absolute;
+    height:60%;
+    left:90%;
+    width:10%;
+    border-right:1px groove lightgray;
+    content:""
+}
+
+table th:last-child:after {
+    position:absolute;
+    height:60%;
+    left:90%;
+    width:10%;
+    border:none;
+    content:""
+}
+
+table td {
+    text-align:center;
+}
