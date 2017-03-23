@@ -12,10 +12,10 @@ export default class Root extends Component {
     render() {
         return(
 
-                    <Router history={browserHistory}>
-                        <Route path="/" component = {HomePage} />
-                    </Router>
-            // <HomePage />
+//                     <Router history={browserHistory}>
+//                         <Route path="/" component = {HomePage} />
+//                     </Router>
+            <HomePage />
         )
 
     }
